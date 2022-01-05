@@ -12,7 +12,7 @@ git add . && git commit -m "commit" && git push -u origin master
         [external_image_storage.s3]
         bucket = lan-xxx
         region = ap-northeast-2
-        path = https://lan-xxx.s3.ap-northeast-2.amazonaws.com/     > no needed?
+        path = lan-xxx
         access_key = ${AWS_ACCESS_KEY}
         secret_key = ${AWS_SECRET_KEY}
     - slack token 입력하면 작동 안 함
